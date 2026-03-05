@@ -1,1 +1,76 @@
-抹茶
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>まえかわ こうた | Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --accent-color: #58a6ff;
+            --card-bg: #161b22;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            width: 90%;
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+            border: 1px solid #30363d;
+            text-align: center;
+        }
+        h1 { color: var(--accent-color); margin-bottom: 0.5rem; }
+        p { font-size: 1.1rem; margin-bottom: 1.5rem; }
+        .tags { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+        .tag {
+            background: #21262d;
+            border: 1px solid #30363d;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .links { margin-top: 2rem; }
+        .links a {
+            color: var(--accent-color);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+        .links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>まえかわ こうた</h1>
+    <p>Software Engineer / Creator</p>
+    
+    <div class="tags">
+        <span class="tag">HTML/CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">Coffee Lover ☕</span>
+    </div>
+
+    <div class="links">
+        <a href="https://github.com/あなたのユーザー名">GitHub</a>
+        <a href="#">Twitter (X)</a>
+        <a href="mailto:your-email@example.com">Contact</a>
+    </div>
+</div>
+
+</body>
+</html>
